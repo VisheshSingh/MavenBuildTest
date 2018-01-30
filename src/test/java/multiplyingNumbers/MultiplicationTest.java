@@ -13,4 +13,9 @@ public class MultiplicationTest extends TestCase {
 		Multiplication m = new Multiplication();
 		assertEquals(125, m.multiplyThree(5, 5, 5));
 	}
+
+	public void testmultiplyDoubles() {
+		Multiplication m = new Multiplication();
+		assertEquals(25.0d, m.multiplyDoubles(5.0d, 5.0d));
+	}
 }

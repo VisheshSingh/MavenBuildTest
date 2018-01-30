@@ -9,4 +9,8 @@ public class Multiplication {
 		return x * y * z;
 	}
 
+	public double multiplyDoubles(double a, double b) {
+		return a * b;
+	}
+
 }
