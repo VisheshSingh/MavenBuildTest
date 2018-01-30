@@ -8,4 +8,5 @@ public class Multiplication {
 	public int multiplyThree(int x, int y, int z) {
 		return x * y * z;
 	}
+
 }
