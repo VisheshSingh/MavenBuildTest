@@ -9,16 +9,14 @@ public class DigitPosition {
 	public static int getPosition(int num, int n) {
 
 		if (logger.isDebugEnabled()) {
-			logger.debug("This is debug : ");
+			logger.debug("This is sample debug log message");
 		}
 
 		if (logger.isInfoEnabled()) {
-			logger.info("This is info : ");
+			logger.info("This is sample info log message");
 		}
 
-		logger.warn("This is warn : ");
-		logger.error("This is error : ");
-		logger.fatal("This is fatal : ");
+		logger.warn("This is sample warning log message");
 
 		if (n < 0) {
 			return -1;
@@ -33,6 +31,7 @@ public class DigitPosition {
 				break;
 			num = num / 10;
 			position = position * 10;
+			logger.info("This is sample info for getting position: " + position);
 		}
 		return position;
 	}
